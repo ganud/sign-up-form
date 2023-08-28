@@ -59,6 +59,7 @@ table {
 	background-image: url("https://cat-milk.github.io/Anime-Girls-Holding-Programming-Books/static/df4aa7f5d0cd50b0e366ea4b3ea5911a/2ddac/Shamiko_Reading_Speaking_Javascript.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
   
 }
 
@@ -84,9 +85,10 @@ table {
 	background-color:white;
 	border-top: 2px solid lightgray;
 	box-shadow: 0px 5px 5px rgb(207, 208, 208);
+	flex:1;
+	/* this prevents the box shadow from being blocked by card 3 */
 	position: relative;
 	z-index: 10;
-	flex:1;
 }
 
 .card-3 {
