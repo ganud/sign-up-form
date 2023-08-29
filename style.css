@@ -176,3 +176,7 @@ em {font-style: italic;}
 .card-content {
 	font-weight: bold;
 }
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+    border: 2px solid #ee2828;
+}
