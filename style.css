@@ -78,6 +78,7 @@ table {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	gap: 20px;
 }
 
 .card-2 {
@@ -94,6 +95,11 @@ table {
 .card-3 {
 	background-color:rgb(235, 232, 232);
 	flex:1;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+	font-size: 20px;
 }
 
 .form-col {
@@ -138,6 +144,7 @@ table {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 20px;
 }
 
 img {
@@ -153,4 +160,19 @@ h1 {
 legend {
 	font-size: 30px;
 	font-weight:bold;
+}
+
+input[type="submit"] {
+	padding: 20px 80px;
+	border-radius: 20px;
+	background-color: #596D48;
+	color: white;
+	font-weight: bold;
+	width: 33%;
+}
+
+em {font-style: italic;}
+
+.card-content {
+	font-weight: bold;
 }
