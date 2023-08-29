@@ -114,7 +114,7 @@ table {
   .form-col input {
 	background-color: #FFFFFF;
 	border: 1px solid #D6D9DC;
-	border-radius: 20px;
+	border-radius: 30px;
 	width: 100%;
 	padding: 7px;
 	font-size: 14px;
@@ -154,7 +154,7 @@ img {
 }
 
 h1 {
-	color:#240B36;
+	color:#aea3b6;
 	font-size: 200px;
 }
 
